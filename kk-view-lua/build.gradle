@@ -21,8 +21,8 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "kk:lua:0.0.3@aar"
-    compile 'kk:view:0.0.2@aar'
+    compile "kk:lua:0.0.4@aar"
+    compile 'kk:view:0.0.3@aar'
     //compile project(':kk-view')
     //compile project(':kk-lua')
 }
@@ -35,7 +35,7 @@ uploadArchives {
         mavenDeployer {
             pom.groupId = "kk"
             pom.artifactId = "view-lua"
-            pom.version = "0.0.1"
+            pom.version = "0.0.2"
             repository(url: RELEASE_REPOSITORY_URL) {
 
             }
